@@ -1,1 +1,9 @@
 # Trabalho-AutoriaWeb-4BM
+
+DESCOMPACTAR A PASTA DAS IMAGENS E COLOCAR NA PASTA PRINCIPAL
+
+Discentes:
+Nícolas Medeiros - 20241214010002
+Bianca Gabrielly - 20241214010035
+Gabriel Azevedo - 202412140100
+Emilly Karen - 202412140100

@@ -1,0 +1,366 @@
+/*configuração geral do body*/
+
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+    max-width: 100vw;
+}
+
+/*
+
+PARTE DE GABRIEL
+
+*/
+
+
+/*container do enunciado do site*/
+
+header {
+    background-color: #0088ff;
+    width: 100%;
+    height: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header .div-conteudo{
+    width: 90%;
+    height: 250px;
+    margin-top: 0px;
+    margin: auto;
+    
+}
+.img-principal{
+    border-radius: 0 0 5px 5px;
+    margin: 0px;
+}
+.container-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.justify-content-end{
+    margin-left: 20px;
+}
+header .nav-link{
+    color: #CCE6F4;
+    text-decoration: none;
+    transition: 1s all;
+    font-weight: 200;
+}
+header .nav-link :hover{
+    text-decoration: underline;
+    transition: 1s all;
+}
+
+.container-nav{
+    display: flex;
+}
+.img-logo{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.img-logo .mascote{
+    margin-top: -8.5px;
+    height: 170px;
+    padding: 0;
+    position: relative;
+}
+.img-logo .logo{
+    width: 250px;
+}
+
+/*modificações adicionais na caixa de pesquisa*/
+.form-control-adapt{
+    margin-top: 10px;
+    width: 500px;
+    position: relative;
+    border-radius: 5px;
+}
+.btn-adapt{
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 0.6%;
+    height: 20px;
+}
+
+/*texto adicional abaixo da pesquisa*/
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pesquisa .texto p{
+    font-size: 12px;
+}
+.alinhamento{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.alinhamento p{
+    font-size: 12px;
+}
+
+/*icones ao lado da barra de pesquisa*/
+.div-icones{
+    display: flex;
+    margin-left: 20px;
+}
+.div-icones .img-icone{
+    height: 35px;
+}
+.div-icones .localizacao{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.div-icones .localizacao p{
+    font-size: 12px;   
+}
+.div-icones .icones-independentes{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.div-icones .icones-independentes img{
+    margin-left: 10px;
+}
+
+.teste{
+    position: absolute;
+    margin-left: -240px;
+    margin-top: 15%;
+    display: flex;
+}
+.teste a{
+    font-size: 13px;
+}
+
+.teste img{
+    margin-top: 11px;
+    height: 13px;
+}
+/*linha gradiente do site - enunciado*/
+
+header .line{
+    width: 90%;
+    height: 6px;
+    background-image: linear-gradient(to right, yellow , orange, red, rgb(255, 0, 106), purple, blue, rgb(0, 225, 255), blue, rgb(0, 173, 64), green);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+/*container que contém todo o assunto da loja*/
+
+.container-carrossel{
+    width: 95%;
+    padding: 20px;
+}
+
+/*configurações adicionais ao botstrap do carrossel*/
+
+.img-carrossel{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.botao-right{
+    justify-content: right;
+}
+.botao-left{
+    justify-content: left;
+}
+.carousel-indicators{
+    margin-bottom: 0;
+}
+
+
+/*
+
+PARTE DE NÍCOLAS
+
+*/
+
+.container-body{
+    background-color: white;
+    border-radius: 10px 10px;
+
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+    height: 550px;
+}
+
+.box{
+    width: 20%;
+    height: 30%;     
+}
+
+.img{
+    width:80%;
+    height: 70%;
+}
+
+.ident{
+    color: black;
+    text-decoration: none;
+}
+
+.ident:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.sub{
+    font-size: 40%;
+    color: rgb(153, 165, 194);
+
+}
+
+.text-body-secondary{
+    font-size: 70%;
+}
+
+.bi{
+    width: 5%;
+    height: 5%;
+}
+
+.row{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.col:hover{
+    box-shadow: 0px 0px 5px 5px rgb(236, 236, 236);
+}
+
+.col:active{
+    background-color: rgb(235, 235, 235);
+}
+
+.previous-next{
+    scale: 250%;
+}
+
+.control{
+    max-width: 2%;
+    opacity: 100%;
+}
+
+.control:default{
+    opacity: 100%;
+}
+
+.control:hover{
+    opacity: 100%;
+}
+
+
+/*
+    PARTE DE EMILLY
+*/
+
+.containerMaga{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+#containerimg{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+#temMagalu{
+    margin-left: 20px;
+    margin-top: 10px;
+  
+}
+
+
+.alinhando{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    text-align: center;
+    justify-items: center;
+
+}
+
+
+
+
+.container-fluid{
+   
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 90% ;
+    background-color: #0088ff;
+    border-radius: 10px;
+
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+    border-radius: 10px;
+}
+
+.carta{
+    margin-left: 10px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+#textocadastro{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    color: white;
+    margin-left: 50px;
+}
+
+#cadastre-se{
+    font-size: 15px;
+}
+
+#politica-privacidade{
+    text-decoration: underline;
+    font-size: 15px;
+}
+#button{
+    background-color: #c9cacc;
+    color: gray;
+}
+
+.img-class{
+    width: 75px;
+    height: auto;
+}
